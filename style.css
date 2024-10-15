@@ -1,0 +1,365 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: url('') no-repeat center center;
+    background-size: cover;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.navbar {
+    background-color: #f8f9fa;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 28px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.navbar .navbar-nav {
+    flex-direction: row;
+}
+
+.navbar .navbar-nav .nav-item {
+    margin: 0 20px;
+}
+
+.navbar .navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+.navbar .nav-link i.fab {
+    font-size: 24px;
+    margin-left: 20px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-link i.fab:hover {
+    color: #007bff;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-nav .nav-item.active .nav-link {
+    color: #007bff;
+    font-weight: 600;
+}
+
+.bi-github {
+    font-size: 2rem;
+}
+
+#navbarNav > div > a {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.icongithub {
+    position: absolute;
+    right: 100px;
+}
+
+.hero {
+    position: relative;
+}
+
+.bg-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hover-scale {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-scale:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.hero-section {
+    height: 100vh;
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about {
+    position: relative;
+    overflow: hidden;
+    padding: 40px 0;
+}
+
+#about h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#about p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.skill-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s;
+    height: 70%;
+}
+
+.skill-logo {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.skill-card:hover {
+    transform: scale(1.05);
+    border-color: #007bff;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+}
+
+.card.shadow-sm {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.btn-primary {
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.navbar {
+    background-color: #f8f9fa;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 28px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.navbar .navbar-nav {
+    flex-direction: row;
+}
+
+.navbar .navbar-nav .nav-item {
+    margin: 0 20px;
+}
+
+.navbar .navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+.navbar .nav-link i.fab {
+    font-size: 24px;
+    margin-left: 20px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-link i.fab:hover {
+    color: #007bff;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-nav .nav-item.active .nav-link {
+    color: #007bff;
+    font-weight: 600;
+}
+
+.bi-github {
+    font-size: 2rem;
+}
+
+#navbarNav > div > a {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.icongithub {
+    position: absolute;
+    right: 100px;
+}
+
+.hero {
+    position: relative;
+}
+
+.bg-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hover-scale {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-scale:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.hero-section {
+    height: 100vh;
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about {
+    position: relative;
+    overflow: hidden;
+    padding: 40px 0;
+}
+
+#about h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#about p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.skill-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s;
+    height: 70%;
+}
+
+.skill-logo {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.skill-card:hover {
+    transform: scale(1.05);
+    border-color: #007bff;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+}
+
+.card.shadow-sm {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.btn-primary {
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
